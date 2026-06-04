@@ -1,51 +1,55 @@
-# Welcome to your Expo app 👋
+# SafeWatch AI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## AI-Powered Real-Time Weapon Detection and CCTV Surveillance System
 
-## Get started
+SafeWatch AI is an intelligent surveillance solution designed to enhance public safety through real-time weapon detection and threat monitoring. The system leverages Artificial Intelligence and Computer Vision techniques to identify weapons from CCTV video streams and generate instant alerts for rapid response.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+* Real-time weapon detection using YOLOv8
+* Detection validation using EfficientNet
+* CCTV video stream monitoring
+* Instant threat alert generation
+* User authentication and account management
+* Mobile application support for remote monitoring
+* Django-based backend services
+* Real-time surveillance dashboard
 
-2. Start the app
+## Technology Stack
 
-   ```bash
-   npx expo start
-   ```
+### Frontend
 
-In the output, you'll find options to open the app in a
+* React Native
+* Expo
+* TypeScript
+* NativeWind
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Backend
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Django
+* SQLite
 
-## Get a fresh project
+### AI / Machine Learning
 
-When you're ready, run:
+* YOLOv8
+* EfficientNet
+* Computer Vision
 
-```bash
-npm run reset-project
-```
+## Project Structure
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+* Frontend Mobile Application
+* Django Backend API
+* Detection Module
+* User Authentication Module
+* Alert Management System
 
-## Learn more
+## Future Enhancements
 
-To learn more about developing your project with Expo, look at the following resources:
+* Cloud deployment
+* Multi-camera support
+* Role-based access control
+* Advanced analytics dashboard
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Authors
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# AI-based-cctv-survaillance-" 
+Developed as a final-year B.Tech project focusing on AI-powered surveillance and public safety solutions.
